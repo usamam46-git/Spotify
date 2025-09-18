@@ -114,11 +114,11 @@ async function main() {
         listSongs.innerHTML += `
             <li>
                 <div class="music-library">
-                     <i class="fa-solid fa-circle-play fa-lg"></i>
+                    <img src="Images/cover.jpg" width="20px" alt="">
                 </div>
                 <div class="artist">
                 <div class="name">
-                Usama's Playlist
+                Usama
                 </div>
                     <div class="track">${song.replace(".mp3", "").replace("%5C", "").slice(0, 28).replace("__", "").replace("___", "")}</div>
                 </div>
@@ -127,7 +127,7 @@ async function main() {
     Array.from(document.querySelectorAll(".song-list li")).forEach((e, index) => {
         e.addEventListener("click", () => {
             playMusic(songs[index], index);
-            e.style.color = " rgb(12, 185, 12)";
+            e.style.color = "#6bf368";
         });
     });
     play.addEventListener("click", () => {
