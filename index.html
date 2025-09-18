@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player</title>
+    <link rel="shortcut icon" href="https://s3-alpha.figma.com/hub/file/2734964093/9f5edc36-eb4d-414a-8447-10514f2bc224-cover.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="left">
+                <img src="Images/45cc6c91692a3665d97b570a3272132a.jpg" width="60px" alt="">
+            </div>
+            <div class="right">
+                <div class="right-left">
+                    <div class="home-icon"> <i class="fa-solid fa-house fa-solid fa-user fa-lg"></i>
+                    </div>
+                    <div class="input-container">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="What do you want to play?">
+                    </div>
+                </div>
+                <div class="right-right">
+                    <a href="https://open.spotify.com/premium">
+                        <button class="Premium">Explore Premium</button>
+                    </a>
+                    <a href="https://open.spotify.com/download"><button class="install"><i class="fa-solid fa-download fa-lg"></i> Install App</button></a>
+                    <i class="fa-solid fa-bell  fa-lg"></i>
+                    <i class="fa-solid fa-users  fa-lg"></i>
+                    <div class="user-icon"> <i class="fa-regular fa-user  fa-lg"></i> </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="first">
+            <div class="library">
+                <i class="fa-solid fa-book-open fa-lg"></i> <span class="text-library">Your Library</span>
+            </div>
+            <div class="song-list">
+                <ul>
+
+                </ul>
+            </div>
+        </div>
+        <div class="second">
+            <div class="buttons-rightleft">
+                <span><i class="fa-solid fa-angle-left fa-lg"></i></span><span><i
+                        class="fa-solid fa-angle-right fa-lg"></i></span>
+            </div>
+            <div class="spotifyPlaylist">
+                Spotify Playlists
+            </div>
+            <div class="card-container">
+                <div class="card-playlist">
+                    <div class="image-wrapper">
+                        <img src="Images/cover (1).jpg" width="100%" alt="">
+                        <button class="play-btn">▶</button>
+                    </div>
+                    <div class="playlist-name">Happy Hits</div>
+                    <p class="playlist-para">Hits to boost your mood and fill you with happiness!</p>
+                </div>
+                <div class="card-playlist">
+                    <div class="image-wrapper">
+                        <img src="Images/cover.jpg" width="100%" alt="">
+                        <button class="play-btn">▶</button>
+                    </div>
+                    <div class="playlist-name">Sleepy Mood</div>
+                    <p class="playlist-para">Vibes to match your sleep anytime!</p>
+                </div>
+                <div class="card-playlist">
+                    <div class="image-wrapper">
+                        <img src="Images/apdhillon.jpeg" width="100%" alt="">
+                        <button class="play-btn">▶</button>
+                    </div>
+                    <div class="playlist-name">AP Dhillon-Mix</div>
+                    <p class="playlist-para">Feel the burst with AP Dhillon</p>
+                </div>
+                <div class="card-playlist">
+                    <div class="image-wrapper">
+                        <img src="Images/drake.jpeg" width="100%" alt="">
+                        <button class="play-btn">▶</button>
+                    </div>
+                    <div class="playlist-name">Drake-Mix</div>
+                    <p class="playlist-para">Get groovy with Drake</p>
+                </div>
+                <div class="card-playlist">
+                    <div class="image-wrapper">
+                        <img src="Images/Dualipa.jpeg" width="100%" alt="">
+                        <button class="play-btn">▶</button>
+                    </div>
+                    <div class="playlist-name">Levitating</div>
+                    <p class="playlist-para">Time to Levitate</p>
+                </div>
+                <div class="card-playlist">
+                    <div class="image-wrapper">
+                        <img src="Images/Justin Bieber.jpeg" width="100%" alt="">
+                        <button class="play-btn">▶</button>
+                    </div>
+                    <div class="playlist-name">Sorry</div>
+                    <p class="playlist-para">Cool Justin Stuff.</p>
+                </div>
+                <div class="card-playlist">
+                    <div class="image-wrapper">
+                        <img src="Images/The_Weeknd_-_Starboy.png" width="100%" alt="">
+                        <button class="play-btn">▶</button>
+                    </div>
+                    <div class="playlist-name">Wavy-Mix</div>
+                    <p class="playlist-para">Wavy-DailyMix</p>
+                </div>
+                <div class="card-playlist">
+                    <div class="image-wrapper">
+                        <img src="Images/postmalone.jpeg" width="100%" alt="">
+                        <button class="play-btn">▶</button>
+                    </div>
+                    <div class="playlist-name">Congratulations</div>
+                    <p class="playlist-para">Colorful Vibes</p>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <div class="card">
+                <img src="Images/images.jpeg" width="100%" height="60%" alt="">
+                <div class="heading">SYL-Moosewala</div>
+                <div class="sub">
+                    The Weekend,Draft Punk.
+                </div>
+                <div class="listeners">
+                    100,45,888 Monthly Listeners.
+                </div>
+                <button class="follow">
+                    Follow
+                </button>
+            </div>
+            <div class="links">
+                <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+            </div>
+        </div>
+    </main>
+    <div class="player">
+        <div class="seekbar">
+            <div class="circle">
+
+            </div>
+        </div>
+        <div class="song-info">
+        </div>
+        <div class="volume">
+            <i id="volumeIcon" class="fa-solid fa-volume-high"></i>
+            <input type="range" min="0" max="100" value="50" class="slider">
+        </div>
+        <div class="duration">
+
+        </div>
+        <div class="playbuttons">
+            <i id="previous" class="fa-solid fa-angles-left fa-2x"></i>
+            <i id="play" class="fa-regular fa-circle-play fa-2x"></i>
+            <i id="next" class="fa-solid fa-angles-right fa-2x"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
