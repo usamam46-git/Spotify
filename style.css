@@ -238,7 +238,7 @@ box-shadow:  27px 27px 41px #101010,
     bottom: 8px;
     right: 8px;
     background-color: rgb(12, 185, 12);
-    color: white;
+    color: black;
     border: none;
     border-radius: 50%;
     width: 28px;
@@ -258,7 +258,7 @@ box-shadow:  27px 27px 41px #101010,
 }
 .playlist-name{
     /* font-weight: bold; */
-    color: silver;
+    color: white;
     font-size: 0.9em;
     padding-top: 10px;
 }

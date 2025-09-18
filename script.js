@@ -151,8 +151,8 @@ async function main() {
             playMusic(songs[currentIndex + 1], currentIndex + 1);
         }
     });
-    document.querySelectorAll(".play-btn").forEach((btn) => {
-        btn.addEventListener("click", () => {
+    document.querySelectorAll(".card-playlist").forEach((card) => {
+        card.addEventListener("click", () => {
             let randomIndex = Math.floor(Math.random() * songs.length);
             playMusic(songs[randomIndex], randomIndex);
         });
