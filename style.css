@@ -226,7 +226,7 @@ main {
 .image-wrapper {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 110px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -249,7 +249,7 @@ main {
     transition: opacity 0.3s ease;
 }
 .card-playlist img{
-    height: 100px;
+    height: 110px;
     width: 100%;
     border-radius: 7px;
 }
